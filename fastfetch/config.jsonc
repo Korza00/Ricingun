@@ -1,0 +1,143 @@
+{
+    "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+    "logo": {
+        "source": "/home/blaze/.config/fastfetch/FastFetch Photos/1.1.png",
+        "type": "kitty",
+        "height": 15,
+        "position": "left",
+        "width": 35,
+        "padding": {
+            "left": 5,
+        }
+    },
+    "display": {
+        "separator": "   ",
+        "color": {
+            "separator": "#E84B17" // Bold
+        },
+    },
+    "modules": [
+        ////////0.1
+        // {
+        //     "key": " ",
+        //     "keyColor": "",
+        //     "type": "colors",
+        //     "symbol": "circle"
+        // },
+        {
+            "type": "custom",
+            "format": "\u001b[38;2;249;226;175m 󰮯 󰇘\u001b[0m \u001b[38;2;203;166;247m 󰊠 󰇘\u001b[0m \u001b[38;2;116;199;236m 󰊠 󰇘\u001b[0m \u001b[38;2;245;194;231m 󰊠 󰇘\u001b[0m \u001b[38;2;250;179;135m 󰊠 󰇘\u001b[0m \u001b[38;2;166;227;161m 󰊠 󰇘\u001b[0m \u001b[38;2;148;226;213m 󰊠 󰇘\u001b[0m \u001b[38;2;180;190;254m 󰊠 󰇘 \u001b[0m"
+        },
+        "break",
+        ////////1
+        {
+            "key": "  |",
+            "keyColor": "#FF2A00",
+            "type": "title",
+            "format": "{user-name}",
+            "height": 55,
+            "width": 84,
+        },
+        ////////2 
+        {
+            "key": " 󰌢 |",
+            "keyColor": "#FF2AE0",
+            "type": "host",
+            "format": "{name}"
+        },
+        ////////3
+        {
+            "key": "  |",
+            "keyColor": "#83BA65",
+            "type": "os",
+            "format": "{name}"
+        },
+        ////////4
+        {
+            "key": "  |",
+            "keyColor": "#2DA66C",
+            "type": "cpu",
+            "format": "{name}",
+            "showPeCoreCount": true
+        },
+        ////////5
+        {
+            "key": " 󰆤 |",
+            "keyColor": "#BA327D",
+            "type": "gpu",
+            "format": "{name}",
+        },
+        ////////6
+        {
+            "key": "  |",
+            "keyColor": "#B5092E",
+            "type": "memory",
+            "format": "",
+        },
+        ////////7
+        {
+            "key": " 󰋊 |",
+            "keyColor": "#B5092E",
+            "type": "disk",
+            "folders": "/home",
+        },
+        {
+            "key": " 󰋊 |",
+            "keyColor": "#B5092E",
+            "type": "disk",
+            "folders": "/"
+        },
+        ////////8
+        {
+            "key": " 󰮯 |",
+            "keyColor": "",
+            "type": "packages",
+            "format": ""
+        },
+        ////////9
+        {
+            "key": "  |",
+            "keyColor": "green",
+            "type": "terminal",
+            "format": "{pretty-name}"
+        },
+        ////////10
+        {
+            "key": "  |",
+            "keyColor": "#B291F7",
+            "type": "shell",
+            "format": "{pretty-name}"
+        },
+        ////////11
+        {
+            "key": "  |",
+            "keyColor": "#66F46B",
+            "type": "wm"
+        },
+        ////////12
+        {
+            "key": "  |",
+            "keyColor": "#D9B31A",
+            "type": "display",
+            "folders": "/"
+        },
+        ////////13
+        {
+            "key": " 󱤤 |",
+            "keyColor": "#E0905E",
+            "type": "uptime"
+        },
+        ////////14
+        // {
+        //     "key": " ",
+        //     "keyColor": "green",
+        //     "type": "colors",
+        //     "symbol": "circle"
+        // },
+        {
+            "type": "custom",
+            "format": "\u001b[38;2;249;226;175m 󰮯 󰇘\u001b[0m \u001b[38;2;203;166;247m 󰊠 󰇘\u001b[0m \u001b[38;2;116;199;236m 󰊠 󰇘\u001b[0m \u001b[38;2;245;194;231m 󰊠 󰇘\u001b[0m \u001b[38;2;250;179;135m 󰊠 󰇘\u001b[0m \u001b[38;2;166;227;161m 󰊠 󰇘\u001b[0m \u001b[38;2;148;226;213m 󰊠 󰇘\u001b[0m \u001b[38;2;180;190;254m 󰊠 󰇘 \u001b[0m"
+        }
+    ]
+}
+///////////last Edit 15/8/2026
